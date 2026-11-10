@@ -37,7 +37,7 @@ public class NumberGuessingGame {
                 }
                 final int guess = Integer.parseInt(line);
                 if (guess < 100 || guess > 999) {
-                    System.out.println("Must be three digits only!\n");
+                    System.out.println("Must be a three digit number!\n");
                     continue;
                 }
 
